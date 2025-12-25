@@ -1,306 +1,185 @@
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nandakumar K - BCA Student &amp; Web Developer</title>
+  <title>Nandakumar | Future Learner</title>
   <link rel="stylesheet" href="stylenk.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Varela+Round&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
- 
-  <nav class="navbar">
-    <a href="#home" class="navbar__logo">NK</a>
-    <ul class="navbar__menu" id="navMenu">
-      <li><a href="#home" class="navbar__link">Home</a></li>
-      <li><a href="#about" class="navbar__link">About</a></li>
-      <li><a href="#education" class="navbar__link">Education</a></li>
-      <li><a href="#skills" class="navbar__link">Skills</a></li>
-      <li><a href="#experience" class="navbar__link">Experience</a></li>
-      <li><a href="#projects" class="navbar__link">Projects</a></li>
-      <li><a href="#contact" class="navbar__link">Contact</a></li>
-      <li>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
-      </li>
-    </ul>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero__content">
-      <h1 class="hero__title">Hi, I'm Nandakumar K</h1>
-      <p class="hero__subtitle">BCA Student | Web Developer Intern at Suvidha Foundation</p>
-      <p class="hero__tagline">Passionate about creating engaging web experiences with strong problem-solving skills</p>
-      <div class="hero__cta-group">
-        <a href="#projects" class="hero__cta hero__cta--primary">View My Work</a>
-        <a href="mailto:nandakumark0000@gmail.com" class="hero__cta hero__cta--secondary">📧 Email Me</a>
-      </div>
-    </div>
-  </section>
+  <!-- Background Decoration -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
 
- 
-  <section class="about" id="about">
-    <div class="about__container">
-      <div class="about__image-wrapper">
-        <img src="image.jpg" alt="Nandakumar K - Profile Photo" class="about__image">
-      </div>
-      <div class="about__content">
-        <h2>About Me</h2>
-        <p class="about__name">Nandakumar K</p>
-        <p class="about__title">BCA Student &amp; Web Developer</p>
-        <p class="about__role">Web Developer Intern at Suvidha Foundation</p>
-        <p class="about__email">
-          <span class="about__email-icon">📧</span>
-          <a href="mailto:nandakumark0000@gmail.com">nandakumark0000@gmail.com</a>
-        </p>
-        <p class="about__bio">
-          I completed my schooling at Amalorpavam Higher Secondary School with 81% in Commerce with Computer Application. Currently pursuing my 2nd year BCA at SRM Arts and Science College, Chennai, I am passionate about web development and continuously improving my technical skills. As a Web Developer Intern at Suvidha Foundation, I'm gaining hands-on experience in creating responsive and user-friendly web solutions.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  
-  <section class="education" id="education">
-    <h2 class="section__title">Education</h2>
-    <p class="section__subtitle">My academic journey and achievements</p>
-    <div class="education__container">
-      <div class="education__card">
-        <div class="education__icon">🎓</div>
-        <div class="education__content">
-          <h3 class="education__degree">Bachelor of Computer Applications (BCA)</h3>
-          <p class="education__institution">SRM Arts and Science College, Chennai</p>
-          <p class="education__year">2nd Year (2BCA)</p>
-          <span class="education__status education__status--current">Currently Pursuing</span>
-        </div>
-      </div>
-      <div class="education__card">
-        <div class="education__icon">🏫</div>
-        <div class="education__content">
-          <h3 class="education__degree">Commerce with Computer Application</h3>
-          <p class="education__institution">Amalorpavam Higher Secondary School</p>
-          <p class="education__score">Score: <strong>81%</strong></p>
-          <span class="education__status education__status--completed">Completed</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <section class="skills" id="skills">
-    <h2 class="section__title">Technical &amp; Coding Skills</h2>
-    <p class="section__subtitle">Proficiency levels in core web technologies and problem-solving</p>
-    <div class="skills__grid">
-      <div class="skill-card">
-        <div class="skill-card__header">
-          <div class="skill-card__icon">🏗️</div>
-          <div class="skill-card__name">HTML</div>
-        </div>
-        <div class="skill-card__progress">
-          <div class="skill-card__progress-bg">
-            <div class="skill-card__progress-fill" data-width="80"></div>
-          </div>
-        </div>
-        <div class="skill-card__percentage">80%</div>
-        <p class="skill-card__description">Semantic markup and modern HTML5</p>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card__header">
-          <div class="skill-card__icon">🎨</div>
-          <div class="skill-card__name">CSS</div>
-        </div>
-        <div class="skill-card__progress">
-          <div class="skill-card__progress-bg">
-            <div class="skill-card__progress-fill" data-width="80"></div>
-          </div>
-        </div>
-        <div class="skill-card__percentage">80%</div>
-        <p class="skill-card__description">Responsive design and styling</p>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card__header">
-          <div class="skill-card__icon">⚡</div>
-          <div class="skill-card__name">JavaScript</div>
-        </div>
-        <div class="skill-card__progress">
-          <div class="skill-card__progress-bg">
-            <div class="skill-card__progress-fill" data-width="75"></div>
-          </div>
-        </div>
-        <div class="skill-card__percentage">75%</div>
-        <p class="skill-card__description">Interactive web applications</p>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card__header">
-          <div class="skill-card__icon">🗄️</div>
-          <div class="skill-card__name">SQL</div>
-        </div>
-        <div class="skill-card__progress">
-          <div class="skill-card__progress-bg">
-            <div class="skill-card__progress-fill" data-width="75"></div>
-          </div>
-        </div>
-        <div class="skill-card__percentage">75%</div>
-        <p class="skill-card__description">Database management</p>
-      </div>
-
-      <div class="skill-card skill-card--highlight">
-        <div class="skill-card__header">
-          <div class="skill-card__icon">🔍</div>
-          <div class="skill-card__name">Problem Solving &amp; Coding</div>
-        </div>
-        <div class="skill-card__progress">
-          <div class="skill-card__progress-bg">
-            <div class="skill-card__progress-fill" data-width="85"></div>
-          </div>
-        </div>
-        <div class="skill-card__percentage">85%</div>
-        <p class="skill-card__description">Strong analytical and coding abilities</p>
-      </div>
-    </div>
-  </section>
-
-  
-  <section class="experience" id="experience">
-    <h2 class="section__title">Professional Experience</h2>
-    <p class="section__subtitle">Current role and responsibilities in web development</p>
-    <div class="experience__card">
-      <div class="experience__header">
-        <div>
-          <h3 class="experience__position">Web Developer Intern</h3>
-          <p class="experience__company">Suvidha Foundation</p>
-        </div>
-        <span class="experience__duration">Current</span>
-      </div>
-      <ul class="experience__responsibilities">
-        <li>Developing responsive web interfaces using HTML, CSS, and JavaScript</li>
-        <li>Creating user-friendly and accessible front-end solutions</li>
-        <li>Applying problem-solving skills to overcome development challenges</li>
-        <li>Collaborating with team members on web projects</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
-    <h2 class="section__title">Projects Showcase</h2>
-    <p class="section__subtitle">Navigate through my work and expertise</p>
-    <div class="carousel" id="carousel">
-      <div class="carousel__container" id="carouselContainer">
-        <div class="carousel__slide carousel__slide--image">
-          <img src="image.jpg" alt="Nandakumar K" class="carousel__slide-image">
-        </div>
-        <div class="carousel__slide">
-          <h3>Nandakumar K</h3>
-          <h4>Web Developer Portfolio</h4>
-          <p>Showcasing my journey from Commerce with Computer Application to BCA</p>
-        </div>
-        <div class="carousel__slide">
-          <h3>Web Development</h3>
-          <h4>HTML, CSS, JavaScript &amp; SQL</h4>
-          <p>Creating modern, responsive web solutions with strong coding fundamentals</p>
-        </div>
-        <div class="carousel__slide">
-          <h3>Problem Solving</h3>
-          <h4>Analytical &amp; Creative Thinking</h4>
-          <p>Applying logical approaches to solve complex development challenges</p>
-        </div>
-      </div>
-      <button class="carousel__button carousel__button--prev" id="prevSlide" aria-label="Previous slide">‹</button>
-      <button class="carousel__button carousel__button--next" id="nextSlide" aria-label="Next slide">›</button>
-    </div>
-    <div class="carousel__dots" id="carouselDots"></div>
-  </section>
-
-
-  <section class="contact" id="contact">
-    <h2 class="section__title">Let's Connect</h2>
-    <p class="section__subtitle">Get in touch through any of these channels</p>
-    
-    
-    <div class="contact__methods">
-      <a href="mailto:nandakumark0000@gmail.com" class="contact__card contact__card--email">
-        <div class="contact__card-icon">📧</div>
-        <div class="contact__card-label">Email Me</div>
-        <div class="contact__card-value">nandakumark0000@gmail.com</div>
+  <header class="header floating">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">🔔</span> NK
       </a>
-      
-      <a href="https://www.instagram.com/nandzz_28?igsh=Y2hqcXd0emk3NTF3" target="_blank" rel="noopener noreferrer" class="contact__card contact__card--instagram">
-        <div class="contact__card-icon">📷</div>
-        <div class="contact__card-label">Follow on Instagram</div>
-        <div class="contact__card-value">@nandzz_28</div>
-      </a>
-      
-      <a href="https://www.linkedin.com/in/nanda-kumar-a09954318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="contact__card contact__card--linkedin">
-        <div class="contact__card-icon">💼</div>
-        <div class="contact__card-label">Connect on LinkedIn</div>
-        <div class="contact__card-value">Nandakumar K</div>
-      </a>
+      <nav class="nav">
+        <a href="#journey" class="nav-pill">My Journey</a>
+        <a href="#gadgets" class="nav-pill">Gadgets</a>
+        <a href="#pocket" class="nav-pill">The Pocket</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Contact Form -->
-    <form class="contact__form" id="contactForm" novalidate>
-      <h3 class="contact__form-title">Send a Message</h3>
-      <div class="form-group">
-        <label for="name" class="form-label">Name *</label>
-        <input type="text" id="name" name="name" class="form-input" required aria-required="true">
-        <div class="form-error" id="nameError">Please enter your name</div>
+  <main>
+    <!-- Hero: Future Note -->
+    <section class="section hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge">Future Note 📝</span>
+          <h1 class="hero-title">
+            I’m learning how tomorrow’s software is built — one clear idea at a time.
+          </h1>
+          <p class="hero-subtext">
+            Welcome to my space. This documents my journey into logic, systems, and thoughtful products.
+          </p>
+          <div class="hero-actions">
+            <a href="#pocket" class="btn btn-primary">Experiments</a>
+            <a href="#gadgets" class="btn btn-secondary">What I'm Learning</a>
+          </div>
+        </div>
+        <div class="hero-image floating-delay">
+          <!-- CSS Abstract Illustration -->
+          <div class="speech-bubble" id="doorNote">Vanakam da Pulla! 👋</div>
+          <div class="future-door" id="anywhereDoor">
+            <div class="door-frame">
+              <div class="door-inner"></div>
+              <div class="knob"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="email" class="form-label">Email *</label>
-        <input type="email" id="email" name="email" class="form-input" required aria-required="true">
-        <div class="form-error" id="emailError">Please enter a valid email address</div>
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Message *</label>
-        <textarea id="message" name="message" class="form-textarea" required aria-required="true"></textarea>
-        <div class="form-error" id="messageError">Please enter a message</div>
-      </div>
-      <button type="submit" class="form-submit" id="submitBtn">Send Message</button>
-      <div class="form-message" id="formMessage"></div>
-    </form>
-  </section>
+    </section>
 
-  <!-- Footer -->
+    <!-- About: My Journey -->
+    <section id="journey" class="section journey">
+      <div class="container">
+        <div class="card journey-card">
+          <div class="card-header">
+            <h2>🤖 Knowing Me</h2>
+          </div>
+          <div class="card-body">
+            <p><strong>Status:</strong> Still Learning & Improving</p>
+            <p>I enjoy looking inside the machine to understand how things truly work. I believe that good software,
+              like a good gadget, should feel simple and helpful.</p>
+            <p>I’m solving practical problems step-by-step, focusing on <strong>Backend Logic</strong>, <strong>CRM
+                Workflows</strong>, and <strong>Automation</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools: Future Gadgets -->
+    <section id="gadgets" class="section gadgets">
+      <div class="container">
+        <h2 class="section-title">Tools I’m Understanding</h2>
+        <div class="gadget-grid">
+          <!-- Gadget 1 -->
+          <div class="gadget-card color-blue">
+            <div class="gadget-icon">🍵</div>
+            <h3>Java Logic</h3>
+            <p>Writing clear and readable code. The foundation of everything.</p>
+          </div>
+          <!-- Gadget 2 -->
+          <div class="gadget-card color-yellow">
+            <div class="gadget-icon">⚙️</div>
+            <h3>Backend Mind</h3>
+            <p>How requests flow and systems respond. The invisible engine.</p>
+          </div>
+          <!-- Gadget 3 -->
+          <div class="gadget-card color-red">
+            <div class="gadget-icon">📈</div>
+            <h3>CRM Systems</h3>
+            <p>Moving leads through a system. Where business meets logic.</p>
+          </div>
+          <!-- Gadget 4 -->
+          <div class="gadget-card color-green">
+            <div class="gadget-icon">🧠</div>
+            <h3>AI Companion</h3>
+            <p>Not a shortcut, but a guide. A friend for learning faster.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects: Experiments from Pocket -->
+    <section id="pocket" class="section pocket">
+      <div class="container">
+        <h2 class="section-title">Experiments from My Pocket</h2>
+
+        <div class="pocket-container">
+          <div class="pocket-card">
+            <div class="pocket-icon">⏳</div>
+            <div class="pocket-content">
+              <h3>QBLINK Logic</h3>
+              <span class="tag">Queue System Experiment</span>
+              <p>Learning how waiting works. I'm studying fairness, time estimation, and flow to build a better waiting
+                experience.</p>
+            </div>
+          </div>
+
+          <div class="pocket-card">
+            <div class="pocket-icon">⚡</div>
+            <div class="pocket-content">
+              <h3>CRM Workflows</h3>
+              <span class="tag">Automation Experiment</span>
+              <p>Simple follow-up logic. I'm experimenting to see how small automations can meaningfuly change outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mindset: Thought Bubbles -->
+    <section class="section think">
+      <div class="container">
+        <h2 class="section-title">Thoughts</h2>
+        <div class="thoughts-wrapper">
+          <div class="thought-bubble bubble-1">Simple logic is powerful.</div>
+          <div class="thought-bubble bubble-2">Technology should reduce confusion.</div>
+          <div class="thought-bubble bubble-3">Stay curious, build slowly.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Direction -->
+    <section class="section future">
+      <div class="container text-center">
+        <p class="future-text">I’m slowly moving toward building reliable backend systems and product tools that quietly
+          help people.</p>
+        <p class="future-text"><strong>The goal isn’t to rush — it’s to understand.</strong></p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container text-center">
+        <div class="wave-icon">👋</div>
+        <h2>See You In The Future!</h2>
+        <p>If you’re building something meaningful, I’d love to learn and contribute.</p>
+        <a href="mailto:nandakumark0000@gmail.com" class="btn btn-primary btn-large">Send a Signal</a>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer">
-    <div class="footer__content">
-      <div class="footer__section">
-        <h3>Nandakumar K</h3>
-        <p class="footer__description">BCA Student &amp; Web Developer Intern at Suvidha Foundation. Passionate about creating modern web experiences.</p>
-      </div>
-      <div class="footer__section">
-        <h3>Quick Links</h3>
-        <ul class="footer__links">
-          <li class="footer__link"><a href="#home">Home</a></li>
-          <li class="footer__link"><a href="#about">About</a></li>
-          <li class="footer__link"><a href="#education">Education</a></li>
-          <li class="footer__link"><a href="#skills">Skills</a></li>
-          <li class="footer__link"><a href="#experience">Experience</a></li>
-          <li class="footer__link"><a href="#projects">Projects</a></li>
-          <li class="footer__link"><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <h3>Connect</h3>
-        <div class="social-links">
-          <a href="mailto:nandakumark0000@gmail.com" class="social-link" aria-label="Email" title="nandakumark0000@gmail.com">📧</a>
-          <a href="https://www.instagram.com/nandzz_28?igsh=Y2hqcXd0emk3NTF3" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram" title="@nandzz_28">📷</a>
-          <a href="https://www.linkedin.com/in/nanda-kumar-a09954318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn" title="Nandakumar K">💼</a>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <p>&copy; 2025 Nandakumar K. All rights reserved.</p>
+    <div class="container">
+      <p>Made by Nandakumar © 2025</p>
     </div>
   </footer>
 
   <script src="scriptnk.js"></script>
 </body>
+
 </html>
